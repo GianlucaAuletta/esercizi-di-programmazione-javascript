@@ -17,8 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
-var gatti = 44;
-var gattiPerFila = 6;
-var numFile = gatti/gattiPerFila;
-numFile = Math.ceil(gatti/gattiPerFila);
-var gattiMancanti = numfile*gattiPerFila - gatti;
+var cats = 44;
+var inLine = 6;
+var numLines = Math.ceil(cats/inLine);
+var missing =numLines*inLine-cats;
+console.log( cats 'gatti in fila per' inLine ' si unirono compatti in ' numLines ' file. i gatti mancanti sono ' missing );
+
