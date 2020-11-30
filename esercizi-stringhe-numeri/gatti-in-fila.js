@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var gatti = 44;
+var gattiPerFila = 6;
+var numFile = gatti/gattiPerFila;
+numFile = Math.ceil(gatti/gattiPerFila);
+var gattiMancanti = numfile*gattiPerFila - gatti;
